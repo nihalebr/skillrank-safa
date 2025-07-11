@@ -10,8 +10,8 @@ from climb import climb_stairs
     (5, 8),
     (10, 89),
     (20, 10946),
-    (-1, 0),        # edge case: negative input
-    (-10, 0),       # edge case: large negative
+    (-1, 0),       
+    (-10, 0),
 ])
 def test_climb_stairs(n, expected):
     assert climb_stairs(n) == expected
